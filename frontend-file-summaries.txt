@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component managing view state (home, admin, orders), authentication, and profile setup modal with theme provider integration.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including products, orders, user profiles, and admin functions with proper error handling and cache invalidation.",
+  "frontend/src/components/Header.tsx": "Navigation header with logo, view switching buttons (Shop, My Orders, Admin), and login/logout functionality.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with copyright and caffeine.ai attribution.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup requiring name, email, and phone number.",
+  "frontend/src/pages/HomePage.tsx": "Main shopping page with tabbed product categories, product grid display, and shopping cart integration.",
+  "frontend/src/pages/AdminDashboard.tsx": "Admin dashboard with statistics cards and tabbed interface for product and order management.",
+  "frontend/src/pages/MyOrders.tsx": "Customer order history page displaying all orders with status badges and order details.",
+  "frontend/src/components/ProductCard.tsx": "Product card component displaying product image, name, description, price (converted from cents to dollars), and add-to-cart button with stock status badge.",
+  "frontend/src/components/ShoppingCart.tsx": "Sliding cart panel with quantity controls, order type selection, notes input, and checkout functionality.",
+  "frontend/src/components/ProductManagement.tsx": "Admin interface for viewing, adding, editing, and deleting products with table layout showing product details and price properly formatted from cents to dollars.",
+  "frontend/src/components/ProductFormDialog.tsx": "Modal form for creating and editing products with image upload, category selection, stock management, and proper price conversion between dollars (UI) and cents (backend storage).",
+  "frontend/src/components/OrderManagement.tsx": "Admin interface for viewing all orders and updating order statuses with dropdown selectors.",
+  "frontend/src/index.css": "Global styles with warm, food-business-appropriate OKLCH color system for light and dark modes with earthy tones."
+}
